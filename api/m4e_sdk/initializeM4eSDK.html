@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the initializeM4eSDK function from the m4e_sdk library, for the Dart programming language.">
+  <title>initializeM4eSDK function - m4e_sdk library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+  <!-- header placeholder -->
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">m4e_sdk</a></li>
+    <li><a href="m4e_sdk/m4e_sdk-library.html">m4e_sdk</a></li>
+    <li class="self-crumb">initializeM4eSDK function</li>
+  </ol>
+  <div class="self-name">initializeM4eSDK</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">m4e_sdk</a></li>
+      <li><a href="m4e_sdk/m4e_sdk-library.html">m4e_sdk</a></li>
+      <li class="self-crumb">initializeM4eSDK function</li>
+    </ol>
+    
+    <h5>m4e_sdk library</h5>
+    <ol>
+      <li class="section-title"><a href="m4e_sdk/m4e_sdk-library.html#classes">Classes</a></li>
+      <li><a href="m4e_sdk/Amount-class.html">Amount</a></li>
+      <li><a href="m4e_sdk/AuthFailure-class.html">AuthFailure</a></li>
+      <li><a href="m4e_sdk/AuthToken-class.html">AuthToken</a></li>
+      <li><a href="m4e_sdk/ClientRequest-class.html">ClientRequest</a></li>
+      <li><a href="m4e_sdk/ConfigFlavour-class.html">ConfigFlavour</a></li>
+      <li><a href="m4e_sdk/ExceptionCode-class.html">ExceptionCode</a></li>
+      <li><a href="m4e_sdk/ExceptionMessages-class.html">ExceptionMessages</a></li>
+      <li><a href="m4e_sdk/Failure-class.html">Failure</a></li>
+      <li><a href="m4e_sdk/M4eAuth-class.html">M4eAuth</a></li>
+      <li><a href="m4e_sdk/M4eAuthOTPVerificationForm-class.html">M4eAuthOTPVerificationForm</a></li>
+      <li><a href="m4e_sdk/M4eAuthPhoneNumberForm-class.html">M4eAuthPhoneNumberForm</a></li>
+      <li><a href="m4e_sdk/M4eHeaderInterceptors-class.html">M4eHeaderInterceptors</a></li>
+      <li><a href="m4e_sdk/M4eLoggingInterceptors-class.html">M4eLoggingInterceptors</a></li>
+      <li><a href="m4e_sdk/M4eTransaction-class.html">M4eTransaction</a></li>
+      <li><a href="m4e_sdk/M4eTransactionForm-class.html">M4eTransactionForm</a></li>
+      <li><a href="m4e_sdk/M4eWallet-class.html">M4eWallet</a></li>
+      <li><a href="m4e_sdk/Persistence-class.html">Persistence</a></li>
+      <li><a href="m4e_sdk/PhoneNumber-class.html">PhoneNumber</a></li>
+      <li><a href="m4e_sdk/SDKConfig-class.html">SDKConfig</a></li>
+      <li><a href="m4e_sdk/ServerFailure-class.html">ServerFailure</a></li>
+      <li><a href="m4e_sdk/TransactionLog-class.html">TransactionLog</a></li>
+      <li><a href="m4e_sdk/TransactionLogList-class.html">TransactionLogList</a></li>
+      <li><a href="m4e_sdk/TransactionMeta-class.html">TransactionMeta</a></li>
+      <li><a href="m4e_sdk/TransactionResult-class.html">TransactionResult</a></li>
+      <li><a href="m4e_sdk/TransactionType-class.html">TransactionType</a></li>
+      <li><a href="m4e_sdk/UniqueId-class.html">UniqueId</a></li>
+      <li><a href="m4e_sdk/UnitImpl-class.html">UnitImpl</a></li>
+      <li><a href="m4e_sdk/User-class.html">User</a></li>
+      <li><a href="m4e_sdk/Wallet-class.html">Wallet</a></li>
+      <li><a href="m4e_sdk/WalletInfo-class.html">WalletInfo</a></li>
+      <li><a href="m4e_sdk/WalletType-class.html">WalletType</a></li>
+    
+      <li class="section-title"><a href="m4e_sdk/m4e_sdk-library.html#extension">Extensions</a></li>
+      <li><a href="m4e_sdk/DateTimeConverter.html">DateTimeConverter</a></li>
+    
+    
+    
+      <li class="section-title"><a href="m4e_sdk/m4e_sdk-library.html#properties">Properties</a></li>
+      <li><a href="m4e_sdk/m4eSDK.html">m4eSDK</a></li>
+    
+      <li class="section-title"><a href="m4e_sdk/m4e_sdk-library.html#functions">Functions</a></li>
+      <li><a href="m4e_sdk/initializeM4eSDK.html">initializeM4eSDK</a></li>
+      <li><a href="m4e_sdk/logger.html">logger</a></li>
+    
+      <li class="section-title"><a href="m4e_sdk/m4e_sdk-library.html#enums">Enums</a></li>
+      <li><a href="m4e_sdk/TransactionStatus-class.html">TransactionStatus</a></li>
+    
+    
+      <li class="section-title"><a href="m4e_sdk/m4e_sdk-library.html#exceptions">Exceptions</a></li>
+      <li><a href="m4e_sdk/AuthException-class.html">AuthException</a></li>
+      <li><a href="m4e_sdk/CacheException-class.html">CacheException</a></li>
+      <li><a href="m4e_sdk/ServerException-class.html">ServerException</a></li>
+    </ol>
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-function">initializeM4eSDK</span> function </h1></div>
+
+    <section class="multi-line-signature">
+        <span class="returntype">void</span>
+                <span class="name ">initializeM4eSDK</span>
+(<wbr>{<span class="parameter" id="initializeM4eSDK-param-config"><span>@required</span> <span class="type-annotation"><a href="m4e_sdk/SDKConfig-class.html">SDKConfig</a></span> <span class="parameter-name">config</span></span> })
+    </section>
+    <section class="desc markdown">
+      <p>Initializes the m4e sdk
+with specified SDKConfig env</p>
+<p>Example initialization:</p>
+<p>Note: before initializing m4eSDK, you should call <code>WidgetsFlutterBinding.ensureInitialized()</code> method
+as of <code>flutter --version 1.12</code> to ensure that your application has been properly
+initialized before initializing the m4eSDK</p>
+<p>This should be initialized in the entrance level
+of the application ie <code>main.dart</code> before <code>runApp</code> method is called.</p>
+<pre class="language-dart"><code>import 'package:m4edart/m4e_sdk_initialize.dart' as sdk;
+
+void main() {
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  sdk.initializeM4eSDK(config: SDKConfig(...));
+
+  runApp(...)
+}
+</code></pre>
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span></h2>
+      <pre class="language-dart"><code class="language-dart">void initializeM4eSDK({@required SDKConfig config}) {
+  &#47;&#47;! services
+  m4eSDK.registerLazySingleton(
+      () =&gt; M4eAuth(authApi: m4eSDK(), connectionChecker: m4eSDK()));
+  m4eSDK.registerLazySingleton(() =&gt;
+      M4eTransaction(transactionApi: m4eSDK(), connectionChecker: m4eSDK()));
+  m4eSDK.registerLazySingleton(
+      () =&gt; M4eWallet(walletApi: m4eSDK(), connectionChecker: m4eSDK()));
+
+  &#47;&#47;! APIS
+  m4eSDK.registerLazySingleton&lt;AuthApi&gt;(() =&gt; AuthApiImpl(
+      client: m4eSDK(), storage: m4eSDK(), loggingInterceptor: m4eSDK()));
+
+  m4eSDK.registerLazySingleton&lt;TransactionApi&gt;(
+    () =&gt; TransactionApiImpl(
+      client: m4eSDK(),
+      loggingInterceptor: m4eSDK(),
+      headerInterceptor: m4eSDK(),
+    ),
+  );
+  m4eSDK.registerLazySingleton&lt;WalletApi&gt;(
+    () =&gt; WalletApiImpl(
+      client: m4eSDK(),
+      loggingInterceptor: m4eSDK(),
+      headerInterceptor: m4eSDK(),
+    ),
+  );
+
+  &#47;&#47; &#47;&#47;! request interceptors
+  m4eSDK.registerLazySingleton(() =&gt; M4eLoggingInterceptors());
+  m4eSDK.registerLazySingleton(
+      () =&gt; M4eHeaderInterceptors(dio: m4eSDK(), authApi: m4eSDK()));
+
+  &#47;&#47;! external dependencies
+  &#47;&#47; data connection checker
+  m4eSDK.registerLazySingleton(() =&gt; DataConnectionChecker());
+
+  &#47;&#47; local storage
+  m4eSDK.registerLazySingleton(() =&gt; FlutterSecureStorage());
+
+  &#47;&#47; http client (dio)
+  BaseOptions _options = BaseOptions(
+    baseUrl: config.baseUrl,
+    connectTimeout: ClientRequest.kConnectionTimeout,
+    receiveTimeout: ClientRequest.kRecieveTimeout,
+  );
+  m4eSDK.registerLazySingleton(() =&gt; Dio(_options));
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    m4e_sdk
+      0.0.1
+  </span>
+
+  <!-- footer-text placeholder -->
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+<!-- footer placeholder -->
+
+</body>
+
+</html>
